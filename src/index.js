@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { add } from './hello_world.cpp';
+
+console.log(add(5,10));
 
 ReactDOM.render(
   <React.StrictMode>
